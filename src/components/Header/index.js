@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '~/assets/logo-interna.svg';
+import Noticiations from '~/components/Notifications';
 
+import logo from '~/assets/logo-interna.svg';
 import { Container, Content, Profile } from './styles';
 
 export default function Header() {
@@ -15,6 +16,7 @@ export default function Header() {
         </nav>
 
         <aside>
+          <Noticiations />
           <Profile>
             <div>
               <strong>João Victor Vieira</strong>
