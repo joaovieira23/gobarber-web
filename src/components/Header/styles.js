@@ -45,6 +45,7 @@ export const Profile = styled.div`
   div {
     text-align: right;
     margin-right: 10px;
+
     strong {
       display: block;
       color: #333;
@@ -59,6 +60,7 @@ export const Profile = styled.div`
   }
 
   img {
+    width: 32px;
     height: 32px;
     border-radius: 50%;
   }
